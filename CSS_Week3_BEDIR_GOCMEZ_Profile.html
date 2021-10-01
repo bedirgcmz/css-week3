@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Week3 BEDIR GOCMEZ Profile</title>
+    <!--External Css Link-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fontawesome Link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <main id="container">
+      <!-- Top image section -->
+      <section id="page-top">
+        <div id="top-img">
+          <img src="./İmg/isvec_tg3.jpg" alt="" />
+        </div>
+        <!-- Profil image section -->
+        <div id="profil-img">
+          <img src="/İmg/profil2.jpg" alt="" />
+        </div>
+      </section>
+      <h1 class="my-name">Burak Yukselen</h1>
+      <!-- Myself information section -->
+      <section id="myself-about">
+        <div id="little-information">
+          <p>
+            Yaş: 32
+            <br />
+            Cinsiyet: Erkek
+          </p>
+          <p>
+            İlkokul, Ortaokul ve Liseyi Şanlıurfada okudum. Onsekizmart Üniversitesinde Sınıf
+            Öğretmenliği okudum. 5 yıl Sınıf öğretmenliği yaptım. Daha sonra 2 yıl Rehberlik ve
+            koçluk yaptım.
+          </p>
+          <p>
+            HiCoders ile asıl sevdiğim mesleğe ulaşmış olacağımı düşünüyorum. İlerde bu alanda iyi
+            bir <mark> Back-end Developer </mark> olmayı planlıyorum.
+          </p>
+        </div>
+        <!--Myself Video-->
+        <div>
+          <h2>Kisaca Ben</h2>
+          <iframe
+            width="916"
+            height="515"
+            src="https://www.youtube.com/embed/bq3ttpjqbf8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <hr />
+      <!-- Personal Information form -->
+      <h2>Kişisel Bilgiler</h2>
+      <form action="/action_page.php" id="self-form">
+        <fieldset>
+          <legend>Eğitim Geçmişi</legend>
+          <ul>
+            <li>Ahmet Memiş İlkokulu</li>
+            <li>Gün Doğmuş Lisesi</li>
+            <li>Çanakkale Üniversitesi</li>
+            <li>Çanakkale Üniversitesi yüksek lisans</li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Çalışma Hayatı</legend>
+          <label>Sınıf Öğretmenliği</label>
+          <ul>
+            <li>2011 Mezuniyet</li>
+            <li>2011-2014 Raşadiye İlkokulu</li>
+            <li>2014-2016 Kasimiye İlkokulu</li>
+          </ul>
+          <label>Koçluk ve Rehberlik:</label>
+          <ul>
+            <li>Abc Dershanesi</li>
+            <li>Mem Eğitim Kurumları</li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Hobilerim ve Becerilerim</legend>
+          <label>Hobiler:</label>
+          <ul>
+            <li>Film İzlemek</li>
+            <li>Kitap Okumak</li>
+            <li>Gezmek</li>
+          </ul>
+          <label>Beceriler:</label>
+          <ol>
+            <li>Bilgisayar Kullanmak</li>
+            <li>Yüzmek</li>
+            <li>Bisiklet Binmek</li>
+          </ol>
+        </fieldset>
+      </form>
+      <hr />
+      <!-- My family information table -->
+      <h2>Aile Bilgileri</h2>
+      <table id="my-family">
+        <tr>
+          <th>Adı Soyadı</th>
+          <th>Yaşı</th>
+          <th>Cinsiyet</th>
+          <th>Eğitim</th>
+        </tr>
+        <tr>
+          <td>Mehmet Ali Güzel</td>
+          <td>6</td>
+          <td>Erkek</td>
+          <td>Anaokulu</td>
+        </tr>
+        <tr>
+          <td>Ayşegül Güzel</td>
+          <td>4</td>
+          <td>Kız</td>
+          <td>Gitmiyor</td>
+        </tr>
+        <tr>
+          <td>Ahmet Güzel</td>
+          <td>2</td>
+          <td>Erkek</td>
+          <td>Gitmiyor</td>
+        </tr>
+      </table>
+      <hr />
+      <!-- Software learning exercise section -->
+      <h2>Yazılım Öğrenim Çalışmalarım</h2>
+      <section id="progress">
+        <div>
+          <h2>Yazılım Alanındaki İlerlemem</h2>
+          <p class="progress">Html</p>
+          <progress value="90" max="100"></progress> <br />
+          <p class="progress">Css</p>
+          <progress value="80" max="100"></progress> <br />
+          <p class="progress">Javascript</p>
+          <progress value="0" max="100"></progress> <br />
+          <p class="progress">SQL</p>
+          <progress value="90" max="100"></progress> <br />
+          <p class="progress">Git</p>
+          <progress value="90" max="100"></progress> <br />
+        </div>
+        <div>
+          <h2>Yazılım Alanındaki Hedefim</h2>
+          <p class="progress">Html</p>
+          <progress value="100" max="100"></progress> <br />
+          <p class="progress">Css</p>
+          <progress value="100" max="100"></progress> <br />
+          <p class="progress">Javascript</p>
+          <progress value="100" max="100"></progress> <br />
+          <p class="progress">SQL</p>
+          <progress value="100" max="100"></progress> <br />
+          <p class="progress">Git</p>
+          <progress value="100" max="100"></progress> <br />
+        </div>
+      </section>
+      <hr />
+      <!-- Contact information section -->
+      <section id="contact">
+        <div class="div-contact one">
+          <h4>İletişim Adresi</h4>
+          <ul class="list">
+            <li><i class="fas fa-mobile-alt"></i>30 698 758 4512</li>
+            <li><i class="far fa-envelope"></i>sonsuzbilgi@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i>Gazi Mah. Güzel Evler Sok. NO:22</li>
+          </ul>
+        </div>
+        <div class="div-contact two">
+          <h4>Sosyal Medya</h4>
+          <ul class="list">
+            <li><i class="fab fa-linkedin"></i>Linkedin</li>
+            <li><i class="fab fa-facebook-square"></i>Facebook</li>
+            <li><i class="fab fa-twitter-square"></i>Tweeter</li>
+            <li><i class="fab fa-instagram"></i>Instagram</li>
+          </ul>
+        </div>
+        <div class="div-contact three">
+          <h4>Bana Ulaşın</h4>
+          <form action="/action_page.php">
+            <textarea
+              placeholder="Lutfen bana iletmek istediklerinizi buraya yaziniz"
+              cols="30"
+              rows="5"
+            ></textarea>
+            <br /><br />
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
+          <p>Lütfen bana iletmek istediğiniz mesajınızı yazarak gönderiniz. Teşekkürler.</p>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <p class="copyright-text">
+            Copyright &copy; 2021 All Rights Reserved by <i><b>Burak Yukselen.</b></i>
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+/* General css */
+body {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 32px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 55px;
+  letter-spacing: 3px;
+}
+
+hr {
+  height: 3px;
+  border: 0;
+  background-color: #e2e2e2c7;
+}
+
+h2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Ephesis";
+  font-size: 25px;
+  margin-top: 0;
+}
+
+/* Top image css */
+#top-img {
+  background-image: url("/İmg/258077.jpg");
+  background-repeat: no-repeat;
+  width: 90%;
+  overflow: hidden;
+  height: 225px;
+  position: absolute;
+}
+
+#top-img img {
+  width: 100%;
+}
+
+/* Profil image css */
+#profil-img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 125px;
+  left: 100px;
+}
+
+#profil-img img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+/* About myself css */
+#myself-about {
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#little-information {
+  width: 70%;
+  padding-right: 40px;
+}
+
+#myself-about:last-child {
+  width: 30%;
+}
+
+#myself-about h2 {
+  margin-top: 20px;
+}
+#myself-about iframe {
+  width: 300px;
+  height: auto;
+}
+
+#myself-about p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Personal Information css*/
+#self-form {
+  display: flex;
+  justify-content: center;
+  color: dimgray;
+  padding: 20px;
+}
+
+#self-form fieldset {
+  border: 3px solid #009688;
+  width: 25%;
+  background-color: lightcyan;
+}
+
+fieldset:first-child {
+  margin-right: 80px;
+}
+
+fieldset:last-child {
+  margin-left: 80px;
+}
+
+/* Family information css*/
+#my-family {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+#my-family td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#my-family tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#my-family tr:hover {
+  background-color: #ddd;
+}
+
+#my-family th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightcyan;
+  color: #009688;
+  border-top: 2px solid #009688;
+}
+
+/* Software learning exercise css*/
+#progress {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+#progress div {
+  background-color: lightcyan;
+  padding: 0 5px 5px 5px;
+  border-radius: 5px;
+  border: 2px solid #009688;
+}
+
+#progress h2 {
+  color: #009688;
+  font-size: 16px;
+  padding: 3px 5px;
+  margin-top: 0px;
+  text-align: center;
+}
+.progress {
+  display: inline-block;
+  width: 90px;
+  margin: 2px 0px;
+}
+progress {
+  display: inline-block;
+  height: 25px;
+}
+
+/* Contact information css */
+#contact {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.div-contact {
+  background-color: lightcyan;
+  width: 32%;
+  border: 2px solid #009688;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #009688;
+}
+
+.three p {
+  color: #027f73;
+  font-size: 12px;
+  width: 230px;
+}
+
+.list {
+  list-style-type: none;
+}
+.list li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list li:hover {
+  opacity: 0.5;
+}
+.fab,
+.far,
+.fas {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #027f73;
+}
+.submit-button {
+  padding: 3px 10px;
+  background-color: #027f73;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: #027f73;
+}
+
+textarea {
+  border: 3px solid #027f73;
+  border-radius: 5px;
+}
+
+textarea:hover::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:hover::-moz-placeholder {
+  color: transparent;
+}
+textarea:hover:-moz-placeholder {
+  color: transparent;
+}
+
+/* footer css */
+footer {
+  background-color: #009688;
+  color: white;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
